@@ -1,0 +1,17 @@
+.navigational-buttons {
+    padding: 25px;
+    a {
+        font-size: 17px;
+        color: black;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        &:hover {
+            color: #595959;
+        }
+        .im {
+            margin-right: 10px;
+            font-size: 17px;
+        }
+    }
+}
